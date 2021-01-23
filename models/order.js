@@ -20,7 +20,7 @@ const orderSchema = mongoose.Schema({
     item: { 
         type: String 
     },
-    order: {
+    deliveryDate: {
         type: String 
     }
 }, {
